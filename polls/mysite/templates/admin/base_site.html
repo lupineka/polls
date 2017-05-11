@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ "Lupita"|default:_("Lupita2") }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Administracion de Encuestas de Lupita</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
